@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clone Startups</title>
+    <!-- CSS를 여기에 포함합니다 -->
+    <style>
+        /* 전체 리셋 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0F1C2E; /* 배경 색상 */
+            color: #fff;
+        }
+
+        /* 네비게이션 바 */
+        header {
+            background-color: #1C2735;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .logo img {
+            width: 50px;
+        }
+
+        .menu {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        .menu li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .auth {
+            display: flex;
+            gap: 15px;
+        }
+
+        .auth .login, .auth .join {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .auth .join {
+            background-color: #fff;
+            color: #000;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Hero 섹션 */
+        .hero {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: #0F1C2E;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            color: #fff;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            color: #A1B4D5;
+        }
+
+        .cta-button {
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Featured Event 섹션 */
+        .featured-event {
+            background-color: #192F46;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .featured-event h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .featured-event p {
+            font-size: 1.2rem;
+            color: #A1B4D5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Challenges</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Roadmap</a></li>
+            </ul>
+            <div class="auth">
+                <a href="#" class="login">Login</a>
+                <a href="#" class="join">Join</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Clone Startups.<br>Learn to code.</h1>
+            <p>코딩은 진짜를 만들어보는거야<br>실제 서비스를 따라 만들면서 코딩을 배우세요</p>
+            <a href="#" class="cta-button">시작하기</a>
+        </section>
+
+        <section class="featured-event">
+            <h2>Featured Event</h2>
+            <p>10주 스터디 오픈, 선착순 마감!</p>
+        </section>
+    </main>
+</body>
+</html>
